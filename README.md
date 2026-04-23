@@ -23,6 +23,23 @@ It supports reading patterns and text from files and efficiently finds all occur
 - C++23
 - ICU Library
 
+This project requires ICU (International Components for Unicode).
+
 Install ICU (Linux):
 ```bash
 sudo apt install libicu-dev
+```
+
+## Usage
+Clone my repo using:
+```bash
+git clone <>
+```
+make sure you are inside the `locate` folder.
+### Then Build Using
+```bash
+cmake -S . -B build
+```
+```bash
+cmake --build build
+```
