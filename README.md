@@ -44,4 +44,6 @@ cmake -S . -B build
 cmake --build build
 ```
 ### Then Run Using:
+```bash
 ./build/locate <patterns_file_path> <text_file_path>
+```
