@@ -33,7 +33,7 @@ sudo apt install libicu-dev
 ## Usage
 Clone my repo using:
 ```bash
-git clone <>
+git clone https://github.com/thundR1/locate.git
 ```
 make sure you are inside the `locate` folder.
 ### Then Build Using
@@ -43,3 +43,4 @@ cmake -S . -B build
 ```bash
 cmake --build build
 ```
+
