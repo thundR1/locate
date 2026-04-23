@@ -1,4 +1,4 @@
-# ⚡ Aho–Corasick Pattern Matching Engine (ICU Powered)
+# ⚡ Locate is an Aho–Corasick Pattern Matching Engine (ICU Powered)
 
 A high-performance **multi-pattern string matching engine** implemented in C++ using the **Aho–Corasick automaton**, with full **Unicode grapheme support via ICU**.
 
@@ -36,11 +36,12 @@ Clone my repo using:
 git clone https://github.com/thundR1/locate.git
 ```
 make sure you are inside the `locate` folder.
-### Then Build Using
+### Then Build Using:
 ```bash
 cmake -S . -B build
 ```
 ```bash
 cmake --build build
 ```
-
+### Then Run Using:
+./build/locate <patterns_file_path> <text_file_path>
