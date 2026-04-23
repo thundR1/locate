@@ -47,3 +47,7 @@ cmake --build build
 ```bash
 ./build/locate <patterns_file_path> <text_file_path>
 ```
+### To redirect the program output into a .txt file then run using:
+```bash
+./build/locate <patterns_file_path> <text_file_path> > <choose_output_file_name>.txt
+```
