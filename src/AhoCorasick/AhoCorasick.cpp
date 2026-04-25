@@ -1,7 +1,3 @@
-//
-// Created by NEXT STORE on 4/22/2026.
-//
-
 #include "AhoCorasick.hpp"
 #include "../util/unicode_util.hpp"
 #include <queue>
