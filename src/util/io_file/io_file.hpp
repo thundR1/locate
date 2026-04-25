@@ -1,5 +1,3 @@
-
-
 #ifndef LOCATE_IO_FILE_HPP
 #define LOCATE_IO_FILE_HPP
 
