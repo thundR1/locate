@@ -1,7 +1,3 @@
-//
-// Created by NEXT STORE on 4/22/2026.
-//
-
 #ifndef FINDER_AHOCORASICK_HPP
 #define FINDER_AHOCORASICK_HPP
 
