@@ -63,7 +63,6 @@ std::vector<std::pair<size_t, std::string>> AhoCorasick::search(const std::strin
             curr = curr->getChild(t);
         }
         for (const auto& [pat, len] : curr->outputs) {
-            //auto len = split_graphemes(pat).size();
             found.emplace_back(i + 1 - len, pat);
         }
     }
